@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./JavaScript", // 編譯後的輸出目錄
+    "target": "ES6", // 指定編譯目標，建議使用 ES6 或以上
+    "module": "CommonJS", // 模塊系統，Node.js 使用 CommonJS
+    "strict": true, // 開啟 TypeScript 嚴格模式，提升代碼質量
+    "esModuleInterop": true, // 允許與 ES 模塊互操作
+    "skipLibCheck": true // 跳過類型定義文件的檢查，提升性能
+  },
+  "include": ["TypeScript/*.ts"], // 包含 src 文件夾下的所有 .ts 文件
+  "exclude": ["node_modules", "dist"] // 排除 node_modules 和輸出目錄
+}
